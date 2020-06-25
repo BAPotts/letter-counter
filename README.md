@@ -58,6 +58,7 @@ SECOND:
   | Program Behavior | Example Behavior | Example Output |
   | ----------- | ----------- | ----------- |
   |  Program will take in a string|"This is a string"  |userInput = new Input("This is a string")   |
+  |  Program will count the occurances of each letter in string |"This is a string" | a:1 b:0 c:0 etc| 
   
  
 ## Known Bugs
