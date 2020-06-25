@@ -9,8 +9,8 @@ describe('Input', () => {
   })
   test('should count strings occurrances of each letter in the alphabet', () =>
   {
-    const userInput = new Input("This is a string");
+    const userInput = new Input("this is a string");
     userInput.letterCounter();
-    expect(userInput.letterCounter()).toEqual(letters);
+    expect(userInput.letters[0]).toEqual(1);
   })
 })
